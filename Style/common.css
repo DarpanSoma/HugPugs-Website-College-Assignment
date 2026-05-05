@@ -26,6 +26,9 @@ body {
   left: 0;
   right: 0;
 }
+.navbar.top{
+  position: relative;
+}
 
 .navlogo {
   /* border: 2px solid purple; */
