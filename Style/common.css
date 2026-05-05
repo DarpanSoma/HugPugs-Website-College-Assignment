@@ -125,15 +125,23 @@ padding: 12px 32px;
     padding-top: 16px;
 }
 
-
+/* 
 hr.solid {
     border-top: 2px solid rgba(128, 128, 128);
     border-bottom: none;
-  }
+  } */
 
 .copyright{
     padding-top: 8px;
     display: flex;
     justify-content: center;
+    border-top: 2px solid rgba(128, 128, 128);
 
+}
+
+.main-header{
+   
+  > img{
+      width: 100%;
+  }
 }
