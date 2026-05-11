@@ -142,9 +142,28 @@ hr.solid {
 
 }
 
-.main-header{
+.hero-image{
    
   > img{
       width: 100%;
   }
+}
+
+
+.hero {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(/Assets/header1.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: 0px 50%;
+}
+
+.hero-content{
+  width: 100%;
+  max-width: 500px;
+  margin: 0 32px;
 }
