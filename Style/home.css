@@ -3,11 +3,11 @@ Set the different cell types to use different style, use the container for table
 to place it in center */
 
 
-/* .table-cont {
+.table-cont {
     display: flex;
     justify-content: center;
 
-} */
+}
 
 .s-tables {
 
@@ -20,3 +20,11 @@ to place it in center */
 .table-cell {
 
 }
+
+.table-cell.heading {
+
+}
+
+.table-cell.info {
+
+}   
