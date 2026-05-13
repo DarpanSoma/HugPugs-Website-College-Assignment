@@ -1,0 +1,22 @@
+/* display grid, make 2 rows, make it use % for scale, with max value for width. 
+Set the different cell types to use different style, use the container for table
+to place it in center */
+
+
+/* .table-cont {
+    display: flex;
+    justify-content: center;
+
+} */
+
+.s-tables {
+
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.table-cell {
+
+}
