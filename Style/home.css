@@ -3,28 +3,51 @@ Set the different cell types to use different style, use the container for table
 to place it in center */
 
 
+.Services-section{  
+background: linear-gradient(180deg, rgba(250, 151, 20, 1) 0%, rgba(212, 163, 115, 1) 100%);
+}
+
+.service-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
 .table-cont {
     display: flex;
     justify-content: center;
-
+    
+        
 }
 
 .s-tables {
 
-    border: 2px solid red;
+    
     display: grid;
-    grid-template-rows: 1fr 1fr;
-}
+    grid-template-columns: 1fr 1fr;
+
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 24px;
+}   
 
 
 .table-cell {
-
+    border: 1px solid black
 }
 
 .table-cell.heading {
-
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px
 }
 
 .table-cell.info {
-
+    padding: 20px;
 }   
+
+.cards-section {
+    background: linear-gradient(180deg,rgba(212, 163, 115, 1) 0%, rgba(168, 195, 151, 1) 100%);
+}
